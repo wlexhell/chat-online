@@ -9,6 +9,10 @@
   "author": "yyuhell@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "socket.io": "^2.2.0"
   }
 }

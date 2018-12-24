@@ -8,6 +8,8 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
+    "antd-pro-merge-less": "^1.0.0",
+    "antd-pro-theme-webpack-plugin": "^1.1.8",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.4.0",
     "eslint-config-umi": "^0.1.5",
@@ -17,11 +19,16 @@
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
+    "react-document-title": "^2.0.3",
     "umi": "^2.1.2",
-    "umi-plugin-react": "^1.1.1"
+    "umi-plugin-react": "^1.1.1",
+    "webpack-manifest-plugin": "^2.0.4"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.0.0"
